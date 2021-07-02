@@ -216,3 +216,6 @@ yarn.lock
 .yarn/install-state.gz
 .pnp.*
 >>>>>>> 85614df46121eff0970ac84d2b1e335a1f250b82
+
+# grass files
+methods/use-case2/grassdata
