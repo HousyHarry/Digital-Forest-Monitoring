@@ -10,6 +10,7 @@ setwd("~/SA/Digital-Forest-Monitoring/methods")
 source("use-case2/build_shadow_mask.R")
 
 # paths
-main_path = "//mnt/smb.hdd.rbd/BFH/Geodata/ESA/S2MSI2Ap/SAFE/"
+dhm_path = "/mnt/smb.hdd.rbd/HAFL/9 Share/PermanenteOrdner/Geodaten/Nationale_Daten/Nationale_Daten_SWISSTOPO/DHM_10m"
+dhm_file = "dhm_10m.tif"
 
-build_shadow_mask(main_path, location='schweiz')
+build_shadow_mask(dhm_path, dhm_file, projlocation='schweiz')
