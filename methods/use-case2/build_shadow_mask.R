@@ -2,7 +2,7 @@
 # Function for automatic calculation of a shadow Mask
 ############################################################
 
-build_shadow_mask = function(projlocation){
+build_shadow_mask = function(dhm_path, projlocation){
 
   # load packages
   library(raster)
