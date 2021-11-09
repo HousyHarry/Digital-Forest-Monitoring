@@ -46,7 +46,7 @@ calc_nbr_differences = function(main_path, out_path, tile="T32TMT", year="2017",
     # register for paralell processing
     print("starting multi-core processing, calculating masked NBRs...")
     cl = makeForkCluster(detectCores() -1)
-    registerDoParallel(cl)
+    # registerDoParallel(cl)
     
     # build NBR stack & save NDVIs & NBRs
     nbr_stk = foreach(i=length(dates_todo):1, .packages = c("raster", "velox"), .combine = "addLayer", .inorder = F) %dopar% {

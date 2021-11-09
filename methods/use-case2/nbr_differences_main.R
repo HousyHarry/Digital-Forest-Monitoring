@@ -20,7 +20,7 @@ source("use-case2/build_polygons.R")
 
 # paths
 main_path = "//mnt/smb.hdd.rbd/BFH/Geodata/ESA/S2MSI2Ap/SAFE/"
-out_path = "//mnt/smb.hdd.rbd/HAFL/WWI-Sentinel-2/Use-Cases/Use-Case2/Test_all"
+out_path = "//mnt/smb.hdd.rbd/HAFL/WWI-Sentinel-2/Use-Cases/Use-Case2/Test_all/"
 mask_path = "//mnt/smb.hdd.rbd/HAFL/WWI-Sentinel-2/Use-Cases/general/swissTLM3D_Wald/Wald_wgs84.tif"
 shp_path = dir_exist_create(out_path,"shp_dates")
 targetpath = "//mnt/smb.hdd.rbd/HAFL/WWI-Sentinel-2/Use-Cases/Use-Case2/Test_all/T32TMT/2017/nbr_diff/"  # reference for reprojection of T31TGM
